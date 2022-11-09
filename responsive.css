@@ -1,0 +1,131 @@
+:root
+{
+    --text-color : #ffff ;
+    --black-color : #110202 ;
+}
+
+/* ...........................  */
+
+
+.btn
+{
+    font-size: 1.3rem;
+    color: var(--text-color);
+   padding: 12px 18px;
+    border-radius: 10px;
+    /* background-color: transparent; */
+    cursor: pointer;
+  opacity: 0.8;
+  background-color:#1d2220;
+  
+}
+
+.name-h1
+{
+  font-size: 2rem;
+  text-align: center;
+  color: var(--black-color);
+}
+
+/* padlet & mobile  */
+@media (max-width : 1023px)
+{
+
+  
+  .header__contract-icon 
+  {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: transparent;
+
+  }
+
+  .header__contract-icon-icon:hover
+  {
+    color: #c2a773;
+  }
+
+  .header__2-img-content
+  {
+   width: 150px;
+   top: 10%;
+   left: 5%;
+ 
+  }
+  .header__2-img-h1
+  
+  
+  {
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+  }
+  .header__2-img-h3
+  {
+    font-size: 0.8rem;
+  }
+  .btn-confirm
+  {
+    
+    font-size: 0.5rem;
+  }
+  .name-product-content--fixed  
+  {
+    padding: 0;
+  }
+  .name-h1
+  {
+    font-size: 1.7rem;
+  }
+}
+
+
+/* mobile  */
+@media (max-width: 739px)
+{
+.product2
+  {
+    padding: 0;
+  }
+
+
+}
+/* tablet  */
+@media (min-width: 740px) and (max-width : 1023px)
+{
+  .product2
+  {
+    padding: 0 20px;
+  }
+}
+.header__contract-icon 
+{
+  background-color: unset;
+}
+
+/* pc  */
+@media (min-width: 1024px)
+{
+  .header__2-title
+
+  {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+        margin-top: 73px;
+  }
+  .header-contact
+  {
+    position: fixed;
+ top: 0;
+ right: 0;
+ left: 0;
+ z-index: 1;
+  }
+  /* .header__2-img-icon
+  {
+    margin-top: 63px;
+  } */
+}
